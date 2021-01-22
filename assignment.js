@@ -27,7 +27,6 @@ var totalPrice = watchPrice+phonePrice+laptopPrice;
 return totalPrice;
 
 //badgetCalculator: Method-2
-
 const arr = ['watch', 'phone', 'laptop'];
 const rate = [50, 100, 500];
 
