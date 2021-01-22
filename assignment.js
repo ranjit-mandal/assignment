@@ -1,4 +1,4 @@
-https://github.com/ranjit-mandal/assignment
+// https://github.com/ranjit-mandal/assignment
     
     // kilometerToMeter:
 function kilometerToMeter(meter){
