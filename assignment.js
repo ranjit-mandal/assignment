@@ -30,22 +30,22 @@ return totalPrice;
 
 // hotelCost
 var day = 21;
-var taka = 0;
+var payableTaka = 0;
 if(day <= 10){
-taka = day * 100;
+payableTaka = day * 100;
 }else if(day <= 20){
     var firstPart = 10 * 100;
     var remaining = day - 10;
     var secondPart = remaining * 80;
-    taka = firstPart + secondPart;
+    payableTaka = firstPart + secondPart;
 }else{
     var firstPart = 10*100;
     var secondPart = 10*80;
     var remaining = day - 20;
     var thirdPart = remaining * 50;
-    taka = firstPart + secondPart + thirdPart;
+    payableTaka = firstPart + secondPart + thirdPart;
 }
-    return taka;
+    return payableTaka;
 
 // megaFriend
     var friendsArray = ['Manna Dey', 'Hemanta Mukharjee', 'Lata Mongeskar', 'Satinath Mukharjee'];
