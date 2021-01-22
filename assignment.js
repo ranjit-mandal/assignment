@@ -9,7 +9,7 @@ function kilometerToMeter(meter){
 
 
 
-    // badgetCalculator
+    // badgetCalculator: Method-1
 var watchAmount = 8;
 var phoneAmount = 1;
 var laptopAmount = 1;
@@ -25,6 +25,19 @@ var laptopPrice = laptopAmount*laptopRate;
 
 var totalPrice = watchPrice+phonePrice+laptopPrice;
 return totalPrice;
+
+//badgetCalculator: Method-2
+
+const arr = ['watch', 'phone', 'laptop'];
+const rate = [50, 100, 500];
+
+var watchCost = rate[0]*2;
+var phoneCost = rate[1]*5;
+var laptopCost = rate[2]*2;
+
+var totalCost = watchCost+phoneCost+laptopCost;
+return totalCost;
+
 
 
 
